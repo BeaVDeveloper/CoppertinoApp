@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1B751CB12320FA7C002F5F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CB02320FA7C002F5F24 /* AppDelegate.swift */; };
-		1B751CB32320FA7C002F5F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CB22320FA7C002F5F24 /* ViewController.swift */; };
+		1B751CB32320FA7C002F5F24 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CB22320FA7C002F5F24 /* SearchViewController.swift */; };
 		1B751CB62320FA7C002F5F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B751CB42320FA7C002F5F24 /* Main.storyboard */; };
 		1B751CB92320FA7C002F5F24 /* CoppertinoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CB72320FA7C002F5F24 /* CoppertinoApp.xcdatamodeld */; };
 		1B751CBB2320FA7E002F5F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B751CBA2320FA7E002F5F24 /* Assets.xcassets */; };
 		1B751CBE2320FA7E002F5F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B751CBC2320FA7E002F5F24 /* LaunchScreen.storyboard */; };
+		1B751CC82321019D002F5F24 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CC72321019D002F5F24 /* Service.swift */; };
+		1B751CCD23212B50002F5F24 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B751CCC23212B50002F5F24 /* Parser.swift */; };
+		1BC68D2C23222CE3000343AE /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D2B23222CE3000343AE /* ErrorExtension.swift */; };
+		1BC68D2E232279CC000343AE /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D2D232279CC000343AE /* CustomImageView.swift */; };
+		1BC68D4E2322960E000343AE /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D4D2322960E000343AE /* HistoryTableViewController.swift */; };
+		1BC68D522322A7C8000343AE /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D512322A7C8000343AE /* RequestCell.swift */; };
+		1BC68D542322B373000343AE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D532322B373000343AE /* DatabaseManager.swift */; };
+		1BC68D562322CBFB000343AE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D552322CBFB000343AE /* DateExtension.swift */; };
+		1BC68D582322D911000343AE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC68D572322D911000343AE /* Alert.swift */; };
+		C406E024D30952449BD123AE /* Pods_CoppertinoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86758BB5527D58C19901182 /* Pods_CoppertinoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B751CAD2320FA7C002F5F24 /* CoppertinoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoppertinoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B751CB02320FA7C002F5F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B751CB22320FA7C002F5F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B751CB22320FA7C002F5F24 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1B751CB52320FA7C002F5F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B751CB82320FA7C002F5F24 /* CoppertinoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoppertinoApp.xcdatamodel; sourceTree = "<group>"; };
 		1B751CBA2320FA7E002F5F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B751CBD2320FA7E002F5F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B751CBF2320FA7E002F5F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B751CC72321019D002F5F24 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1B751CCC23212B50002F5F24 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		1BC68D2B23222CE3000343AE /* ErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		1BC68D2D232279CC000343AE /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		1BC68D4D2322960E000343AE /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		1BC68D512322A7C8000343AE /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		1BC68D532322B373000343AE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1BC68D552322CBFB000343AE /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		1BC68D572322D911000343AE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		489C9F222085B8E1358E8854 /* Pods-CoppertinoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoppertinoApp.debug.xcconfig"; path = "Target Support Files/Pods-CoppertinoApp/Pods-CoppertinoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D7D8C4343F06F1D156720ABD /* Pods-CoppertinoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoppertinoApp.release.xcconfig"; path = "Target Support Files/Pods-CoppertinoApp/Pods-CoppertinoApp.release.xcconfig"; sourceTree = "<group>"; };
+		E86758BB5527D58C19901182 /* Pods_CoppertinoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoppertinoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C406E024D30952449BD123AE /* Pods_CoppertinoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				1B751CAF2320FA7C002F5F24 /* CoppertinoApp */,
 				1B751CAE2320FA7C002F5F24 /* Products */,
+				742C17512DDEEFB8BAD63C4A /* Pods */,
+				BA43E33B4585623BFC2AB7E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +81,13 @@
 		1B751CAF2320FA7C002F5F24 /* CoppertinoApp */ = {
 			isa = PBXGroup;
 			children = (
+				1BC68D2A23222CCD000343AE /* Helpers */,
+				1B751CC623210194002F5F24 /* Service */,
+				1BC68D4F2322A796000343AE /* View */,
+				1BC68D2D232279CC000343AE /* CustomImageView.swift */,
+				1B751CCE23213348002F5F24 /* Model */,
+				1B751CC523210188002F5F24 /* Controllers */,
 				1B751CB02320FA7C002F5F24 /* AppDelegate.swift */,
-				1B751CB22320FA7C002F5F24 /* ViewController.swift */,
 				1B751CB42320FA7C002F5F24 /* Main.storyboard */,
 				1B751CBA2320FA7E002F5F24 /* Assets.xcassets */,
 				1B751CBC2320FA7E002F5F24 /* LaunchScreen.storyboard */,
@@ -67,6 +97,75 @@
 			path = CoppertinoApp;
 			sourceTree = "<group>";
 		};
+		1B751CC523210188002F5F24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B751CB22320FA7C002F5F24 /* SearchViewController.swift */,
+				1BC68D4D2322960E000343AE /* HistoryTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B751CC623210194002F5F24 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B751CC72321019D002F5F24 /* Service.swift */,
+				1B751CCC23212B50002F5F24 /* Parser.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1B751CCE23213348002F5F24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BC68D532322B373000343AE /* DatabaseManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BC68D2A23222CCD000343AE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BC68D2B23222CE3000343AE /* ErrorExtension.swift */,
+				1BC68D552322CBFB000343AE /* DateExtension.swift */,
+				1BC68D572322D911000343AE /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1BC68D4F2322A796000343AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BC68D502322A7B4000343AE /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BC68D502322A7B4000343AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1BC68D512322A7C8000343AE /* RequestCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		742C17512DDEEFB8BAD63C4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				489C9F222085B8E1358E8854 /* Pods-CoppertinoApp.debug.xcconfig */,
+				D7D8C4343F06F1D156720ABD /* Pods-CoppertinoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA43E33B4585623BFC2AB7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86758BB5527D58C19901182 /* Pods_CoppertinoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B751CC22320FA7E002F5F24 /* Build configuration list for PBXNativeTarget "CoppertinoApp" */;
 			buildPhases = (
+				A487181E73FA9393DA96292C /* [CP] Check Pods Manifest.lock */,
 				1B751CA92320FA7C002F5F24 /* Sources */,
 				1B751CAA2320FA7C002F5F24 /* Frameworks */,
 				1B751CAB2320FA7C002F5F24 /* Resources */,
+				2A3E3285A3B194C880991473 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A3E3285A3B194C880991473 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoppertinoApp/Pods-CoppertinoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoppertinoApp/Pods-CoppertinoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoppertinoApp/Pods-CoppertinoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A487181E73FA9393DA96292C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoppertinoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B751CA92320FA7C002F5F24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B751CB32320FA7C002F5F24 /* ViewController.swift in Sources */,
+				1B751CB32320FA7C002F5F24 /* SearchViewController.swift in Sources */,
+				1BC68D562322CBFB000343AE /* DateExtension.swift in Sources */,
+				1BC68D542322B373000343AE /* DatabaseManager.swift in Sources */,
+				1BC68D2E232279CC000343AE /* CustomImageView.swift in Sources */,
+				1B751CC82321019D002F5F24 /* Service.swift in Sources */,
+				1BC68D582322D911000343AE /* Alert.swift in Sources */,
+				1B751CCD23212B50002F5F24 /* Parser.swift in Sources */,
 				1B751CB92320FA7C002F5F24 /* CoppertinoApp.xcdatamodeld in Sources */,
+				1BC68D4E2322960E000343AE /* HistoryTableViewController.swift in Sources */,
 				1B751CB12320FA7C002F5F24 /* AppDelegate.swift in Sources */,
+				1BC68D522322A7C8000343AE /* RequestCell.swift in Sources */,
+				1BC68D2C23222CE3000343AE /* ErrorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +436,7 @@
 		};
 		1B751CC32320FA7E002F5F24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489C9F222085B8E1358E8854 /* Pods-CoppertinoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +455,7 @@
 		};
 		1B751CC42320FA7E002F5F24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D8C4343F06F1D156720ABD /* Pods-CoppertinoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
